@@ -27,6 +27,12 @@ body {
     max-width: 35ch;
     border-radius: 0.5rem;
     overflow: hidden;
+
+    transition: transform 500ms ease;
+}
+
+.card:hover {
+    transform: scale(1.005)
 }
 
 .card-content {
