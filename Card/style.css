@@ -28,7 +28,7 @@ body {
 }
 
 .card-content {
-    --padding: 1.5em;
+    --padding: 1.5rem;
     padding: var(--padding);
     background: linear-gradient(
         hsl(0 0% 0% / 0),
@@ -46,9 +46,9 @@ body {
 .card-title::after {
     content: '';
     position: absolute;
-    height: 4px;
-    left: 0;
+    height: 3px;
+    left: calc(var(--padding) * -1);
     bottom: 0;
-    width: 100%;
+    width: calc(100% + var(--padding));
     background: white;
 }
