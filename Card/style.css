@@ -20,5 +20,6 @@ body {
 }
 
 .card {
-    color: var(--clr-neutral-100)
+    color: var(--clr-neutral-100);
+    background-image: url(background.jpg)
 }
