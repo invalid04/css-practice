@@ -43,7 +43,10 @@ body {
         hsl(20 0% 0% / 0.3),
         hsl(0 0% 0% / 1)
     );
+    transform: translateY(65%)
 }
+
+
 
 .card-title {
     position: relative;
@@ -59,6 +62,14 @@ body {
     bottom: 0;
     width: calc(100% + var(--padding));
     background: red;
+
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 500ms ease;
+}
+
+.card:hover .card-title::after {
+    transform: scaleX(1);
 }
 
 .card-body {
