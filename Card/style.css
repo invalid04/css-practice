@@ -55,6 +55,10 @@ body {
     background: red;
 }
 
+.card-body {
+    color: rgb(255, 255, 255 / 0.8);
+}
+
 .button {
     cursor: pointer;
     display: inline-block;
