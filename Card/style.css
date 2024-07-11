@@ -52,3 +52,12 @@ body {
     width: calc(100% + var(--padding));
     background: white;
 }
+
+.button {
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: var(clr-neutral-900);
+    background-color: white;
+    padding: 0.5em 1.25em
+}
