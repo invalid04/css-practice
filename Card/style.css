@@ -9,3 +9,11 @@
 *::after {
     box-sizing: border-box;
 }
+
+body {
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    line-height: 1.6;
+    background: #13181c;
+}
