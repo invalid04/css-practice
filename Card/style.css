@@ -3,3 +3,9 @@
     --clr-neutral-100: hsl(0, 0%, 100%);
     --clr-neutral-400: hsl(142, 90%, 61%);
 }
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
