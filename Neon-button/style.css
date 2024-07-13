@@ -1,5 +1,18 @@
 :root {
     --clr-neon: rgb(255, 0, 85);
-    --clr-bg: rgb(158, 27, 50);
+    --clr-bg: hsl(323 21% 16%);
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: var(--clr-bg);
+    color: var(--clr-neon);
+}
